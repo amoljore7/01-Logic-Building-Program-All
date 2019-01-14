@@ -1,0 +1,18 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//		
+//		Function Name	: Add
+//		Description		: It is used to add two integer.
+//		Input			: int[IN], int[IN]
+//		Output			: int
+//		Author Name		: Amol Balasaheb Jore
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+int Add(int iNo1, int iNo2)				// first And Second Parameter
+{
+	int iAns = 0;						// Variable to Hold Address
+	iAns = iNo1 + iNo2;
+	return iAns;						// return the result
+}

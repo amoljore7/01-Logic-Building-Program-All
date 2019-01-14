@@ -1,0 +1,23 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//		
+//		Function Name	: Display
+//		Description		: It is Number isLess then 10 then print Hello otherwise print Demo.
+//		Input			: int[IN]
+//		Output			: string
+//		Author Name		: Amol Balasaheb Jore
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include"myHeader.h"
+void Display(int iNo)
+{
+	if (iNo < 10)
+	{
+		printf("\t\tHello\n");
+	}
+	else
+	{
+		printf("\t\tDemo\n");
+	}
+}
+
